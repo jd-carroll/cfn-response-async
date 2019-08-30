@@ -1,0 +1,44 @@
+{
+  "name": "cfn-response-async",
+  "version": "0.1.1",
+  "description": "An async/await module for sending responses from lambda-funciton backed custom resources in AWS CloudFormation",
+  "author": "Joseph Carroll <jdsalingerjr@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jd-carroll/cfn-response-async.git"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "aws",
+    "cfn-response",
+    "response",
+    "lambda",
+    "function",
+    "cloudFormation",
+    "custom",
+    "resource",
+    "cloud",
+    "formation",
+    "async",
+    "await"
+  ],
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.31",
+    "@types/node": "^12.7.2",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
