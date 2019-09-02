@@ -1,6 +1,6 @@
 {
   "name": "cfn-response-async",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "An async/await module for sending responses from lambda-funciton backed custom resources in AWS CloudFormation",
   "author": "Joseph Carroll <jdsalingerjr@gmail.com>",
   "license": "MIT",
